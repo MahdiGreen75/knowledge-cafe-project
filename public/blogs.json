@@ -1,0 +1,69 @@
+[
+    {
+        "id": "1",
+        "cover_pic": "https://i.ibb.co/vPmkCq2/alexander-zabrodskiy-lvsi2ns-Kafo-unsplash.jpg",
+        "title": "Lorem Ipsum",
+        "author": "John Doe",
+        "author_img": "https://i.ibb.co/Krtptwp/aiony-haust-3-TLl-97-HNJo-unsplash.jpg",
+        "posted_date": "2023-09-14",
+        "reading_time": "10 minutes",
+        "hashtags": [
+            "Lorem",
+            "Ipsum",
+            "Article"
+        ]
+    },
+    {
+        "id": "2",
+        "cover_pic": "https://i.ibb.co/XV4L93z/neom-jfej-Qo2t-Zw-unsplash.jpg",
+        "title": "A Journey Through Time",
+        "author": "Jane Smith",
+        "author_img": "https://i.ibb.co/MVmJfcV/albert-dera-ILip77-Sbm-OE-unsplash.jpg",
+        "posted_date": "2023-09-13",
+        "reading_time": "15 minutes",
+        "hashtags": [
+            "TimeTravel",
+            "Adventure"
+        ]
+    },
+    {
+        "id": "3",
+        "cover_pic": "https://i.ibb.co/nfdhSzd/paul-carroll-Jy4-xk34q0s-unsplash.jpg",
+        "title": "Cooking Tips and Tricks",
+        "author": "Chef Mike",
+        "author_img": "https://i.ibb.co/HKRn4N8/austin-wade-X6-Uj51n5-CE8-unsplash.jpg",
+        "posted_date": "2023-09-12",
+        "reading_time": "8 minutes",
+        "hashtags": [
+            "Cooking",
+            "Recipes"
+        ]
+    },
+    {
+        "id": "4",
+        "cover_pic": "https://i.ibb.co/DGLTxgB/yifu-wu-1-ICH4o9-p-DA-unsplash.jpg",
+        "title": "The Art of Photography",
+        "author": "Alice Johnson",
+        "author_img": "https://i.ibb.co/QdH1xrm/hiki-app-A9r-Qe-I2-Ad-R4-unsplash.jpg",
+        "posted_date": "2023-09-11",
+        "reading_time": "12 minutes",
+        "hashtags": [
+            "Photography",
+            "Tips"
+        ]
+    },
+    {
+        "id": "5",
+        "cover_pic": "https://i.ibb.co/3Y0sc6D/yifu-wu-Ug-Mbk4c-E-s-unsplash.jpg",
+        "title": "Exploring Nature's Wonders",
+        "author": "David Brown",
+        "author_img": "https://i.ibb.co/Jz23QDv/jake-nackos-IF9-TK5-Uy-KI-unsplash.jpg",
+        "posted_date": "2023-09-10",
+        "reading_time": "20 minutes",
+        "hashtags": [
+            "Nature",
+            "Adventure",
+            "Exploration"
+        ]
+    }
+]
