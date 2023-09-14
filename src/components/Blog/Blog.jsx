@@ -1,16 +1,34 @@
 import PropTypes from 'prop-types';
+import bookMarkBtn from '../../assets/bookmark-btn.svg'
 
-const Blog = ({blog}) => {
-    console.log(blog)
+const Blog = ({ blog, handleAddToBookmark }) => {
+    const { title, cover_pic, author, author_img, posted_date, reading_time, hashtags } = blog
     return (
         <div>
-            
+            <div className='w-3/5'>
+                <img className='w-full' src={cover_pic} alt={`Cover picture of ${title}`} />
+            </div>
+            <div className='flex justify-between'>
+                <div className='flex items-center'>
+                    <div><img className='w-16 h-16 rounded-full' src={author_img}></img></div>
+                    <div className='flex flex-col items-center'><span>{author}</span><span>{posted_date}</span></div>
+                </div>
+                <div className='flex items-center'>
+                    <span>{reading_time}</span>
+                    <button onClick={() => handleAddToBookmark(blog)}><img src={bookMarkBtn}  /></button>
+                </div>
+            </div>
+            <h4 className="text-3xl">{title}</h4>
+            {
+                hashtags.map((item, index) =><span key={index}>#{item}</span>)
+            }
+            <div className='pb-1 border-b-2 mb-3'><button><span className='underline text-blue-400'>Mark as read</span></button></div>
         </div>
     );
 };
 
 Blog.propTypes = {
-    Blog: PropTypes.object.isRequired,
+    blog: PropTypes.object.isRequired,
 }
 
 export default Blog;
